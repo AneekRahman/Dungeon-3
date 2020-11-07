@@ -1,0 +1,8 @@
+Dungeon Logo=
+
+Font-Family: Century Gothic;
+Font-Style: Regular;
+Font-Size 500pt;
+aa:Crisp;
+color: white;
+background-color: black;

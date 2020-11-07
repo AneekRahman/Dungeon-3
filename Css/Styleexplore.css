@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    background;
+    background-size:cover;
+    background-repeat: repeat-x;
+    height: 100%;
+    width: 100%;
+}
+.HeaderLogo{
+    background-color: black;
+    padding: 1em 2em 1em;
+    width: 9em;
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    box-shadow: 3px 0 9px black;
+}
+.HomeSidebar{
+    background-color: #1a1d1f;
+    width: 13em;
+    height: 37em;
+    position: fixed;
+    color: white;
+    font-size: 100%;
+    z-index: 50;
+    box-shadow: 3px 0 9px black;
+    top: 4.4em;
+}
+a{
+    text-decoration: none;
+}
+.searchBar{
+    padding: .7em 1em;
+    background-color: rgba(0,0,0,.4);
+    transition: .5s;
+}
+.searchIcon{
+    width: 20%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-left: 38.5%;
+}
+.searchBar:hover{
+    background-color: black;
+    transition: .5s;
+}
+.searchBox{
+    border-radius: 10px;
+    border: 1px solid white;
+    width: 10.7em;
+    margin: .5em 0;
+    font-size: 1em;
+    padding: 2px 10px;
+    outline: none;
+}
+.pages a{
+    display: block;
+    font-weight: 100;
+    margin:0;
+    font-family: roboto;
+    text-align: center;
+    background-color: #3e454f;
+    padding: 1em;
+    border-bottom: 1px solid rgba(0,0,0,.3);
+    color: white;
+    transition:.5s;
+}
+.pages a:hover{
+    background-color:#43b9d3;
+}
+.sideBarInfo{
+    margin-top: 16em;
+}
+.sideBarInfo ul{
+    display: inline;
+}
+.sideBarInfo li{
+    text-align: center;
+    font-family: raleway;
+    font-size: .8em;
+    color: darkgrey;
+}
+.sideBarInfo a{
+    line-height: 0;
+}
+.sideBarInfo li:hover{
+    color: white;
+}
+.copyR{
+    margin: 0;
+    font-family: roboto;
+    text-align: center;
+    font-weight: 400;
+}
+.main{
+    margin:1em 1em 1em 14em;
+    width: 69.3em;
+    height: 50em;
+}
+.main p{
+    font-size: 2em
+}

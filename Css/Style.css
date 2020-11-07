@@ -1,0 +1,204 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../Icons/BG2.jpeg);
+    background-size:cover;
+    height: 100%;
+    width: 100%;
+}
+.HeaderLogo{
+    background-color: black;
+    padding: 1em 2em 1em;
+    width: 9em;
+    position: absolute;
+    top: 0;
+    z-index: 20;
+    box-shadow: 3px 0 9px black;
+}
+.HomeSidebar{
+    background-color: #1a1d1f;
+    width: 13em;
+    height: 37em;
+    position: absolute;
+    color: white;
+    font-size: 100%;
+    z-index: 50;
+    box-shadow: 3px 0 9px black;
+    top: 4.4em;
+}
+a{
+    text-decoration: none;
+}
+.searchBar{
+    padding: .7em 1em;
+    background-color: rgba(0,0,0,.4);
+    transition: .5s;
+}
+.searchIcon{
+    width: 20%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-left: 38.5%;
+}
+.searchBar:hover{
+    background-color: black;
+    transition: .5s;
+}
+.searchBox{
+    border-radius: 10px;
+    border: 1px solid white;
+    width: 10.7em;
+    margin: .5em 0;
+    font-size: 1em;
+    padding: 2px 10px;
+    outline: none;
+}
+.pages a{
+    display: block;
+    font-weight: 100;
+    margin:0;
+    font-family: roboto;
+    text-align: center;
+    background-color: #3e454f;
+    padding: 1em;
+    border-bottom: 1px solid rgba(0,0,0,.3);
+    color: white;
+    transition:.5s;
+}
+.pages a:hover{
+    background-color:#43b9d3;
+}
+.sideBarInfo{
+    margin-top: 16em;
+}
+.sideBarInfo ul{
+    display: inline;
+}
+.sideBarInfo li{
+    text-align: center;
+    font-family: raleway;
+    font-size: .8em;
+    color: darkgrey;
+}
+.sideBarInfo a{
+    line-height: 0;
+}
+.sideBarInfo li:hover{
+    color: white;
+}
+.copyR{
+    margin: 0;
+    font-family: roboto;
+    text-align: center;
+    font-weight: 400;
+}
+.main{
+    margin-left: 13em;
+}
+.LoginSignUpBox{
+    margin-right: 1em;
+    margin-top: 1em;
+    float: right;
+    font-family: roboto;
+    color: black;
+    width: 20em;
+    border-radius:4px;
+    border: 1px solid white;
+    background-color: #e2e8ef;
+    padding-left: 1.2em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    box-shadow: 0 0 5px gray;
+}
+h4{
+    color:#424242;
+    margin: .2em 0;
+    font-size: .9em;
+    text-transform: uppercase;
+}
+.inputBox{
+    font-family: raleway;
+    font-weight: 600;
+    padding: 2px 5px;
+    width: 21.5em;
+    height: 1.3em;
+    outline: none;
+    border: 2.5px solid #ccc;
+    transition: .5s;
+}
+.LoginSignUpBox a{
+    color: lightslategrey;
+    font-size: .7em;
+    margin-left: .2em;
+}
+.LoginSignUpBox a:hover{
+    color: brown;
+}
+.inputBox:focus{
+    border: 2.5px solid #1b95e0;
+}
+input[type=submit]{
+    color: white;
+    font-family: raleway;
+    font-weight: 700;
+    display: block;
+    border-radius: 4px;
+    padding: .7em 2em;
+    background-color: #1b95e0;
+    border: 1px solid rgba(24,134,201,1);
+    box-shadow: 1px 1px  3px rgb(24, 134, 201);
+    transition: .5s;
+}
+.loginButton{
+    margin-left: 32%;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+input[type=submit]:hover{
+    background-color: #7db80c;
+    border:1px solid #6ea702;
+    box-shadow: 1px 1px 3px #7db80c;
+}
+input[type=submit]:focus{
+    outline: none;
+}
+h3{
+    border-top: 1px solid white;
+    padding: 1em 0 .2em;
+    width: 16em;
+    text-align: center;
+    color:#274150;
+}
+.fl{
+    display: inline;
+}
+.lname{
+    float:right;
+    margin-right: 5.9em
+}
+.lnameBox{
+    float: right;
+    position: absolute;
+    margin-left: .7em;
+}
+.flnameBox{
+    margin-top: .4em;
+    width: 9.8em;
+}
+.signUp h5{
+    display: inline;
+}
+select{
+    margin-top: .2em;
+}
+input[type=checkbox]{
+    margin-top: 1em;
+}
+.signUp label{
+    display: inline;
+    font-size: .7em;
+    letter-spacing: .01em;
+}
+.createAccountButton{
+    margin:1.5em 0 1em 5.7em;
+}
